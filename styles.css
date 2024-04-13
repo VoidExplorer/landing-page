@@ -85,3 +85,29 @@ button {
 .topimage {
     margin-top: 100px;
 }
+
+.randominfo {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.randominfoheader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.illustrations {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.picbox {
+    border: solid  #3992F6;
+    border-radius: 16px;
+}
+
+.imgcontainer {
+    max-width: 150px;
+}
