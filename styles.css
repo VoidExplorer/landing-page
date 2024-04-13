@@ -10,7 +10,8 @@ body {
 }
 
 h1,
-h3 {
+h3,
+h4 {
     margin: 0;
 }
 
@@ -69,7 +70,7 @@ a {
 }
 
 button {
-    max-width: 21%;
+    max-width: 23%;
     background-color: #3882F6;
     border-radius: 8px;
     border: 2px solid #3882F6;
@@ -139,4 +140,27 @@ button {
     color: #1F2937;
     margin-right: 30px;
     font-weight: bold;
+}
+
+.box {
+    background-color: #3882F6;
+    margin: 50px 200px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 40px;
+}
+
+.boxtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box button {
+    border-color: white;
+    max-width: 12%;
+    flex: 1;
 }
