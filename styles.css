@@ -5,6 +5,8 @@
 
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 h1,
@@ -110,4 +112,31 @@ button {
 
 .imgcontainer {
     max-width: 150px;
+}
+
+.gray {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+}
+
+.quote {
+    max-width: 790px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.author {
+    align-self: flex-end;
+    color: #1F2937;
+    margin-right: 30px;
+    font-weight: bold;
 }
